@@ -1,0 +1,91 @@
+body{
+    padding:0;
+    margin:0;
+    background:url("volleyball.jpg") no-repeat;
+    background-size:cover; 
+    
+}
+
+.logo{
+    
+    width:100%;
+    height:50px;
+    color:#fff;
+    padding:20px;
+    overflow:hidden;
+}
+
+.logo i{
+    transition:0.5s;
+}
+
+span{
+    font-size:22px;
+    margin-left:8%;
+    margin-top:20px;
+    position:absolute;
+}
+
+.logo input{
+    position:absolute;
+    margin-left:500px;
+    margin-top:20px;
+
+    font-size:20px;
+    height:33px;
+    width:300px;
+}
+
+.logo button{
+    margin-left:810px;
+    margin-top:21px;
+    position:absolute;
+    color:black;
+    background:#fff;
+    cursor:pointer;
+
+}
+
+ul{
+   margin-right:50px;
+    float:right;
+}
+
+ul li{
+    display:inline;
+    
+    
+    font-size:18px;
+    padding-left:40px;
+    width:150px;
+    transition:0.5s;
+}
+
+.logo i:hover{
+    padding-top:5;
+    
+    cursor:pointer;
+}
+
+ul li:hover{
+   font-size:22px;
+    cursor:pointer;
+    color:rgb(240, 140, 39)
+}
+
+brands{
+    background:#fff;
+}
+
+img{
+width:100px;
+height:80px;
+position:relative;
+margin-top:490px;
+margin-right:20px;
+}
+
+img:hover{
+	width:110px;
+	height:90px;
+}
